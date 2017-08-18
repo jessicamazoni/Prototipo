@@ -1,0 +1,18 @@
+.navbar-button {
+	@include v-align;
+	right: 0;
+	margin-right: 1em;
+	width: 2.5em;
+	height: 2.5em;
+	cursor: pointer;
+
+	> .img {
+		width: 100%;
+	}
+}
+
+@media #{$large-up} {
+	.navbar-button {
+		display: none;
+	}
+}

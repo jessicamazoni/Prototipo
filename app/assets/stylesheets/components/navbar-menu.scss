@@ -1,0 +1,33 @@
+.navbar-menu {
+	
+	> .link {
+		display: block;
+		margin: 0.5em auto;
+		width: 90%;
+		padding: 0.5em;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+@media #{$large-up} {
+	.navbar-menu {
+		display: block;
+		margin: 0 1em;
+		width: 5em;
+		float: right;
+		position: relative;
+		height: 3.5em;
+
+		> .link {
+			@include center-align;
+			margin: 0;
+			width: auto;
+
+			&:hover {
+				background-color: rgba(0,0,0,0.2);
+			}
+		}
+	}
+}

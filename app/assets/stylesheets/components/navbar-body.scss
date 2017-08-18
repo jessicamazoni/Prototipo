@@ -1,0 +1,28 @@
+.navbar-body {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+
+	> .logo {
+		@include grid(4);
+		height: 3.5em;
+		position: relative;
+	}
+
+	> .menu {
+		@include grid(8);
+		min-height: 3.5em;
+		position: relative;
+		display: none;
+	}
+}
+
+@media #{$large-up} {
+	.navbar-body {
+
+		> .menu {
+			display: block;
+		}
+	}
+}

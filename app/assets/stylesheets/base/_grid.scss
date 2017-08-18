@@ -13,7 +13,7 @@ $gutterMobile: 0.5rem; // !default
 $columnWidthMobile: ( 100%/#{$nOfColumnsMobile} - #{$gutterMobile} );
 
 $tabletWidth: 1023px; // Mudado de 740 para 1023 !default
-$mobileWidth: 480px; // !default
+$mobileWidth: 768px; // !default
 
 @mixin grid($size) {
   display: block;
