@@ -1,0 +1,43 @@
+.contact-input {
+	width: 100%;
+	height: 2.5em;
+	margin-bottom: 1em;
+	padding: 0 1em;
+	outline: none;
+
+	&.-area {
+		height: 4.5em;
+		padding-top: 0.5em;
+		resize: none;
+	}
+	
+	&.-textwhite{
+		background-color: #fff;
+	}
+}
+
+@media #{$large-up} {
+	.contact-input {
+		height: 3.5em;
+		margin-bottom: 2em;
+
+		&.-area {
+			height: 6.5em;
+			padding-top: 1em;
+		}
+	}
+}
+
+.contact-container input:focus:invalid, .contact-container textarea:focus:invalid { 
+    background: #fff image-url("exclamation-mark.svg") no-repeat 98% center;
+    background-size: 2em;
+    box-shadow: 0 0 5px #E2574C;
+    border-color: #E2574C;
+}
+
+.contact-container input:required:valid, .contact-container textarea:required:valid { 
+    background: #fff image-url("checked.svg") no-repeat 98% center;
+    background-size: 2em;
+    box-shadow: 0 0 5px #3DB39E;
+    border-color: #3DB39E;
+}

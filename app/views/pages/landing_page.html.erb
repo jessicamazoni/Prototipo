@@ -7,19 +7,59 @@
 	</div>
 
 	<div class="menu" data-menu="">
-		<div class="navbar-menu">
-			<a href="#" class="link">Banner</a>
-		</div>
-		<div class="navbar-menu">
-			<a href="#" class="link">Main</a>
-		</div>
-		<div class="navbar-menu">
-			<a href="#" class="link">Footer</a>
+		<div class="floatright-desktop" data-link="">
+			<div class="navbar-menu">
+				<a href="#MAIN" class="link">Banner</a>
+			</div>
+			<div class="navbar-menu">
+				<a href="#CONTACT" class="link">Main</a>
+			</div>
+			<div class="navbar-menu">
+				<a href="#FOOTER" class="link">Footer</a>
+			</div>
 		</div>
 	</div>
 </div>
 
-
-<div class="carroussel-banner">
+<div class="fullscreen-section" id="MAIN">
 	<img src="http://placehold.it/350x200" class="banner-image">
+	<img src="http://placehold.it/1000x200" class="banner-image -desktop">
+	<div class="carousel-image" data-carousel="">
+	  <div class="slider" >Imagem 1</div>
+	  <div class="slider" >Imagem 2</div>
+	  <div class="slider" >Imagem 3</div>
+	  <div class="slider" >Imagem 4</div>
+	  <div class="slider" >Imagem 5</div>
+	  <div class="slider" >Imagem 6</div>
+	</div>
 </div>
+
+<div class="fullscreen-section" id="CONTACT">
+	<div class="contact-container">
+		<h1 class="title">Contato</h1>
+		<form>
+			<select class="contact-input -textwhite" required>
+				<option disabled selected>Selecione o assunto</option>
+				<option>Problemas</option>
+				<option>Sujestões</option>
+			</select>
+			<input placeholder="Nome" class="contact-input" required="">
+			<input placeholder="Telefone" class="contact-input" pattern="^\d{2} \d{5}-\d{4}$" data-mask="99 99999-9999" required>
+			<textarea placeholder="Menssagem" class="contact-input -area" required></textarea>
+			<button class="contact-input" >Enviar</button>
+		</form>
+	</div>
+</div> 
+
+<footer id="FOOTER" class="contact-footer">
+	<div class="phone">99 99999-9999</div>
+	<div class="network-icons">
+	    <a href="#" class="social"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="social"><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+    </div>
+  
+</footer>
+<div class="develop-name">
+    <span>Desenvolvido por Jéssica Mazoni</span>
+</div> 

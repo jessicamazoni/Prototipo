@@ -14,4 +14,8 @@
 //= require turbolinks
 //= require jquery
 //= require jquery_ujs
+//= require jquery.slick
+//= require jasny-bootstrap.min
 //= require_tree .
+
+

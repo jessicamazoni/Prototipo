@@ -1,0 +1,18 @@
+.banner-image {
+	margin-top: 3.5em;
+	width: 100%;
+
+	&.-desktop {
+		display: none;
+	}
+}
+
+@media #{$large-up} {
+	.banner-image {
+		display: none;
+
+		&.-desktop {
+			display: block;
+		}
+	}
+}

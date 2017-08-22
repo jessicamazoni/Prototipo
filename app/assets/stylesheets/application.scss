@@ -1,3 +1,7 @@
+@import 'slick';
+@import 'slick-theme';
+@import "font-awesome";
+
 @import 'ambience/colors';
 @import 'ambience/media-query';
 
@@ -5,10 +9,18 @@
 @import 'base/reusables';
 @import 'base/structure';
 @import 'base/grid';
+@import 'base/carousel';
 
 @import 'components/navbar-body';
 @import 'components/navbar-title';
 @import 'components/navbar-button';
 @import 'components/navbar-menu';
-@import 'components/carroussel-banner';
+@import 'components/fullscreen-section';
 @import 'components/banner-image';
+@import 'components/contact-container';
+@import 'components/contact-input';
+@import 'components/carousel-image';
+@import 'components/floatright-desktop';
+@import 'components/contact-footer';
+@import 'components/network-icons';
+@import 'components/develop-name';

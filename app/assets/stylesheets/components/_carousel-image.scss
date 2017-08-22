@@ -1,0 +1,22 @@
+.carousel-image {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3em;
+
+	.slider {
+		text-align: center;
+		padding: 4em 0;
+		border: 2px solid black;
+	}
+}
+
+@media #{$large-up} {
+	.carousel-image {
+		width: 90%;
+		margin-top: 6em;
+
+		.slider {
+			padding: 6em 0;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.contact-container {
+    width: 90%;
+    margin: 0 auto;
+    
+    > .title {
+    	margin-top: 3.5em;
+        text-align: center;
+    }
+}
+
+@media #{$large-up} {
+	.contact-container {
+		width: 40%;
+	}
+}
