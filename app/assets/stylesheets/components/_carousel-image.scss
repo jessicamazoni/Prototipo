@@ -17,6 +17,13 @@
 
 		.slider {
 			padding: 6em 0;
+
+			&:hover {
+				-webkit-transform:scale(1.08); /* prefixo para browsers webkit */
+			    -moz-transform:scale(1.08); /* prefixo para browsers gecko */
+			    -o-transform:scale(1.08); /* prefixo para opera */
+			    transform:scale(1.08);
+			}
 		}
 	}
 }
