@@ -28,7 +28,7 @@ gem 'jquery-rails'
 
 gem "jquery-slick-rails"
 
-gem 'jasny-bootstrap-rails'
+gem 'jquery_mask_rails', '~> 0.1.0'
 
 gem "font-awesome-rails"
 

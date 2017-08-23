@@ -14,7 +14,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.slick
-//= require jasny-bootstrap.min
+//= require jquery.mask
 //= require_tree .
 
 

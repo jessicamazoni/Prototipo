@@ -8,14 +8,16 @@ function openMenu() {
 	}
 }
 
-
 $('[data-link] a[href^="#"]').on('click', function(e) {
-  e.preventDefault();
-  var id = $(this).attr('href'),
-      targetOffset = $(id).offset().top;
-      
-  $('html, body').animate({ 
-    scrollTop: targetOffset - 100
-  }, 500);
-});
+  	e.preventDefault();
+  	var id = $(this).attr('href'),
+      	targetOffset = $(id).offset().top;
 
+   	if (screen.width < 992) {
+   		$("[data-menu]").css('display', 'none');
+   	}
+      
+  	$('html, body').animate({ 
+    	scrollTop: targetOffset
+  	}, 500);
+});
